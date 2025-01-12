@@ -1,0 +1,11 @@
+@import "../../../styles/mixins";
+@import "../../../styles/variables";
+
+.avatar img {
+  height: 3.5rem;
+  width: 3.5rem;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 2.5px solid $neutral-900;
+  padding: 0.2rem;
+}
