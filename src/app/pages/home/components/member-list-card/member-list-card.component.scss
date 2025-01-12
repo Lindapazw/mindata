@@ -2,14 +2,27 @@
 @import "../../../../../styles/variables";
 
 .card {
-  background-color: $neutral-100;
-  padding: 1.5rem;
-  border-radius: 20px;
-  max-width: 20rem;
-}
+  @include card;
 
-p {
-  color: $neutral-500;
-  margin-top: 1rem;
-  margin-bottom: 2.5rem;
+  &__content {
+    padding: 1.25rem;
+    max-width: 22rem;
+  }
+
+  &__description {
+    color: $neutral-500;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+  }
+
+  &__footer {
+    @include flex-space-between;
+    background-color: $neutral-200;
+    padding: 1.25rem;
+    border-radius: 0rem 0rem 1.3rem 1.3rem;
+  }
+
+  &__students {
+    color: $neutral-500;
+  }
 }
