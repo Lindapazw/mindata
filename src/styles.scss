@@ -1,12 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import "styles/variables";
+@import "styles/mixins";
+
 * {
   margin: 0px;
   padding: 0px;
 }
 
 body {
-  background-color: #bacad8;
+  background-color: $neutral-600;
 }
 
 h1,
@@ -16,5 +19,23 @@ h4,
 h5,
 h6,
 p {
-  font-family: "Roboto", serif;
+  font-family: $font-family;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: $neutral-1000;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.1rem;
+  color: $neutral-900;
+  line-height: 1.5rem;
+  font-weight: 400;
 }

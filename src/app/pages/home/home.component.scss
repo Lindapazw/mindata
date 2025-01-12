@@ -1,0 +1,8 @@
+@import "../../../styles/mixins";
+@import "../../../styles/variables";
+
+.contenedor {
+  @include flex-center;
+  flex-direction: column;
+  min-height: 100vh;
+}

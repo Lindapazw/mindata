@@ -1,0 +1,30 @@
+// primary colors
+$purple-color: #c123ea;
+$pink-color: #fd1959;
+$orange-100: #f98771;
+$orange-500: #f8593b;
+$green: #2ecc71;
+
+// Neutral
+$neutral-100: #ffffff; // Blanco
+$neutral-200: #fbfbfb; // Muy claro
+$neutral-400: #ababab; // Gris claro
+$neutral-500: #9b9b9b; // Gris medio
+$neutral-600: #bacad8; // Fondo (gris azulado)
+$neutral-900: #333333; // Paragraph
+$neutral-1000: #000000; // Negro
+
+// Linear gradient colors
+$gradient-start: $pink-color;
+$gradient-end: $purple-color;
+
+// background
+$bg-body: $neutral-600;
+$bg-card: $neutral-100;
+
+// Alert
+$success-alert: $green;
+$danger-alert: $orange-500;
+
+// Typography
+$font-family: "Roboto", sans-serif;
