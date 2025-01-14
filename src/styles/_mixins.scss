@@ -4,3 +4,28 @@
   justify-content: center;
   align-items: center;
 }
+
+// Flex Space between
+@mixin flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// Card Style
+@mixin card {
+  background-color: $neutral-100;
+  border-radius: 20px;
+}
+
+// Chip Style
+@mixin chip($bg-color, $icon-color: $neutral-100) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 2rem;
+  background-color: $bg-color;
+  border-radius: 100%;
+  color: $icon-color;
+}
