@@ -1,0 +1,46 @@
+@import "../../../../../styles/mixins";
+@import "../../../../../styles/variables";
+
+.card {
+  @include card;
+
+  &__background {
+    background: linear-gradient(to left, #ef971a, #ff522f);
+    width: 100%;
+    height: 12rem;
+    border-radius: 20px 20px 0 0;
+    position: relative;
+    min-width: 22rem;
+  }
+
+  &__avatar {
+    padding: 0.3rem;
+    background-color: $neutral-100;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -2.9rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &__content {
+    @include flex-center;
+    flex-direction: column;
+    padding: 1.25rem;
+  }
+
+  &__user-name {
+    margin-top: 2rem;
+  }
+
+  &__user-occupation {
+    color: $neutral-500;
+  }
+
+  &__button-group {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+  }
+}
