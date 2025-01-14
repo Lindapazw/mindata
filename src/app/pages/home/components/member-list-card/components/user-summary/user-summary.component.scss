@@ -5,7 +5,7 @@
   @include flex-space-between;
   margin: 0.7rem 0rem;
 
-  &__flex {
+  &__container {
     @include flex-center;
     gap: 1rem;
   }
