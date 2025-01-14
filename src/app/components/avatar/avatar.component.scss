@@ -9,14 +9,12 @@
     background-color: $neutral-100;
   }
 
-  // Tamaño pequeño (por defecto)
   &--small img {
     height: 3rem;
     width: 3rem;
     border: 2.5px solid $neutral-900;
   }
 
-  // Tamaño grande
   &--large img {
     height: 4.5rem;
     width: 4.5rem;

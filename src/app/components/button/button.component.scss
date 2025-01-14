@@ -1,7 +1,6 @@
 @import "@styles/_variables.scss";
 @import "@styles/_mixins.scss";
 
-// Estilos para 'variant1'
 .button_purple {
   padding: 0.6rem 1rem;
   border: none;
@@ -14,7 +13,6 @@
   cursor: pointer;
 }
 
-// Estilos para 'variant2'
 .button {
   padding: 0.6rem 1rem;
   border: 3px solid $neutral-1000;
@@ -27,7 +25,6 @@
   cursor: pointer;
 }
 
-// Estilos para 'variant3'
 .button_black {
   padding: 0.6rem 1rem;
   border: 3px solid $neutral-1000;
@@ -40,7 +37,6 @@
   cursor: pointer;
 }
 
-// Estilos para 'variant4'
 .button_pink {
   padding: 0.8rem 1rem;
   border: 3px solid $pink-color;
