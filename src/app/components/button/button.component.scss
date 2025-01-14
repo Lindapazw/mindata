@@ -1,0 +1,54 @@
+@import "../../../styles/variables";
+
+// Estilos para 'variant1'
+.button_purple {
+  padding: 0.6rem 1rem;
+  border: none;
+  background-color: $purple-color;
+  text-transform: uppercase;
+  color: $neutral-100;
+  font-size: 0.7rem;
+  font-weight: 500;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+// Estilos para 'variant2'
+.button {
+  padding: 0.6rem 1rem;
+  border: 3px solid $neutral-1000;
+  background-color: $neutral-100;
+  text-transform: uppercase;
+  color: $neutral-1000;
+  font-size: 0.8rem;
+  font-weight: 900;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+// Estilos para 'variant3'
+.button_black {
+  padding: 0.6rem 1rem;
+  border: 3px solid $neutral-1000;
+  background-color: $neutral-1000;
+  text-transform: uppercase;
+  color: $neutral-100;
+  font-size: 0.8rem;
+  font-weight: 900;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+// Estilos para 'variant4'
+.button_pink {
+  padding: 0.6rem 1rem;
+  border: 3px solid $pink-color;
+  background-color: $pink-color;
+  text-transform: uppercase;
+  color: $neutral-100;
+  font-size: 0.8rem;
+  font-weight: 900;
+  border-radius: 10rem;
+  cursor: pointer;
+  width: 100%;
+}
