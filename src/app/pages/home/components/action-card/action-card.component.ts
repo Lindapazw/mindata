@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { ButtonComponent } from '../../../../components/button/button.component';
 
 @Component({
   selector: 'app-action-card',
   standalone: true,
-  imports: [],
+  imports: [ButtonComponent],
   templateUrl: './action-card.component.html',
   styleUrl: './action-card.component.scss',
 })
