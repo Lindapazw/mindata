@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
-import { AvatarComponent } from '../../../../../../components/avatar/avatar.component';
-import { ButtonComponent } from '../../../../../../components/button/button.component';
-import { User } from '../../../../../../models/user.model';
+import { AvatarComponent } from '@components/avatar/avatar.component';
+import { ButtonComponent } from '@components/button/button.component';
+import { User } from '@models/user.model';
 
 @Component({
   selector: 'app-user-summary',

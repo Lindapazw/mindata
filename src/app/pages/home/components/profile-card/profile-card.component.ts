@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { AvatarComponent } from '../../../../components/avatar/avatar.component';
-import { ButtonComponent } from '../../../../components/button/button.component';
+import { AvatarComponent } from '@components/avatar/avatar.component';
+import { ButtonComponent } from '@components/button/button.component';
 
 @Component({
   selector: 'app-profile-card',

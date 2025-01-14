@@ -1,6 +1,6 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
-import { User } from '../../../../models/user.model';
+import { User } from '@models/user.model';
 import { UserSummaryComponent } from './components/user-summary/user-summary.component';
 
 @Component({

@@ -1,7 +1,7 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
-import { ButtonComponent } from '../../../../components/button/button.component';
-import { ChipComponent } from '../../../../components/chip/chip.component';
+import { ButtonComponent } from '@components/button/button.component';
+import { ChipComponent } from '@components/chip/chip.component';
 
 @Component({
   selector: 'app-product-card',
