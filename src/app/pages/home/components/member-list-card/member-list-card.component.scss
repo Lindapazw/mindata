@@ -3,10 +3,10 @@
 
 .card {
   @include card;
+  max-width: 22rem;
 
   &__content {
     padding: 1.25rem;
-    max-width: 22rem;
   }
 
   &__description {

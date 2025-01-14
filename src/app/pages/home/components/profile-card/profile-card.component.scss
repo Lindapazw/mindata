@@ -3,6 +3,7 @@
 
 .card {
   @include card;
+  max-width: 22rem;
 
   &__background {
     background: linear-gradient(to left, #ef971a, #ff522f);
